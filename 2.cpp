@@ -9,7 +9,7 @@ int main()
 	int box[1000];
 	for (int i = 0; i <= number; i++)
 		cin >> box[i];
-	cout << "原来的数组："
+	cout << "原来的数组：";
 	for (int i = 0; i <= number; i++)
 		cout /*<< "原来的数组："*/ << box[i] << ' ';
 	cout << endl;
