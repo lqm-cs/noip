@@ -35,10 +35,10 @@ int main()
 		cout << "当前数组已经排序好了";
 	else
 	{
-		cout << "排序成功！" << endl;
+		cout << "排序成功！";
 		for (int m = 0; m <= number; m++)
-			cout << box[m] << ' ' << endl;
-		cout << "冒泡排序交换次数：" << change;
+			cout << box[m] << ' ';
+		cout << endl << "冒泡排序交换次数：" << change;
 	}
 	return 0;
 }
