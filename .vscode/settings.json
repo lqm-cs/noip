@@ -2,6 +2,6 @@
     "files.associations": {
         "iostream": "cpp"
     },
-    "editor.fontFamily": "'Cascadia Mono PL', 'Cascadia Mono PL', monospace",
+    "editor.fontFamily": "'Monospace Randon', 'Monospace Randon', Monospace Randon",
     "editor.fontSize": 16
 }
