@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+/*#include */
 using namespace std;
 
 int main()
@@ -11,7 +12,7 @@ int main()
         {
             for (int j = 0; j <= i; ++j)
             {
-                cout << i << '*' << j << '=' << i * j; /*<< endl;*/
+                cout << i << '*' << j << '=' << i * j << ' '; /*<< endl;*/
             }
             cout << endl;
         }

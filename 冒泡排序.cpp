@@ -1,9 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std; //指定名字空间
-
+#include <iostream>
+#include <vector>
+#include <algorithm>
 int main() 
 { //主函数
-	int a[100]; //定义数组，大小100
+	/*int a[100]; //定义数组，大小100
 	int N; //元素的实际个数
 	int i = 0, j = 0; //循环变量，并进行初始化
 	cin >> N; //输入元素个数
@@ -27,6 +29,14 @@ int main()
 	{ //使用循环，输出N个元素
 		cout << a[i] << " "; //输出a[i], 后加空格，不换行
 	}
-	cout << endl; //所有元素输出完之后才换行
+	cout << endl;*/ //所有元素输出完之后才换行
+	int N;
+	vector<int> a[1000];
+	cin >> N;
+	for (int i = 0; i<=N;i++)
+		cin >> a[i];
+	sort(a.begin(), a.end());
+	for (int i = 0; i<= N; i++)
+		cout << a[i] << endl;
 	return 0; //函数返回
 }
