@@ -1,16 +1,21 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-	int n, a[10000], ans = 0;
-	cin >> n;
-	for (int i = 1; i <= n; i++)
+	int j;
+	int k;
+	cin >> k;
+	for (int i = 2; i <= k; i++)
 	{
-		cin >> a[i];
-		if ((a[i] + a[i + 1] + a[i + 2]) == (a[i] + a[i + 1] + a[i + 2]))
-			ans++;
+		for (j = 2; j <= i; j++)
+		{
+			if (i % j == 0)
+				break;
+			else 
+				cout << j;
+		}
+		
 	}
-	cout << n - ans;
 	return 0;
 }
